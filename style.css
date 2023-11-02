@@ -1,0 +1,56 @@
+div  { text-align: center;
+background-color: whitesmoke;
+border: 2px solid whitesmoke;
+padding: 5px;  
+}
+ul > li { 
+display: inline-block;
+text-decoration: none;
+width: 13%;
+list-style: upper-alpha inside;
+padding: 5px;
+
+}
+.abc :hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+
+a { 
+    color: black;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.third { 
+    border: 5px solid whitesmoke;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    background-color: yellow;
+
+}
+/* .third :hover {
+    transform: scale(1.1);
+    transition: 1s;
+} */
+.second { 
+    position: sticky;
+top: 0;
+
+}
+.second :hover {
+    transition: 1s;
+    color: rgb(255, 245, 245);
+    background-color: rgb(180, 163, 163);
+   
+}
+.forth { 
+    width: 20%;
+    text-align: center;
+    float: right;
+    padding-right: 40px;
+    background-color: plum;
+    padding-left: 40px ;
+}
